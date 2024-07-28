@@ -1,4 +1,5 @@
 import AboutSection from "./components/AboutSection";
+import Acheivement from "./components/Acheivement";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
@@ -12,6 +13,7 @@ function App() {
       <AboutSection/>
       <Project/>
       <Skills/>
+      <Acheivement/>
     </main>
   );
 }
