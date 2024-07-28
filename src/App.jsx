@@ -1,9 +1,11 @@
 import AboutSection from "./components/AboutSection";
 import Acheivement from "./components/Acheivement";
+import ContactForm from "./components/ContactForm";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Project/>
       <Skills/>
       <Acheivement/>
+      <Testimonials/>
+      <ContactForm/>
     </main>
   );
 }
