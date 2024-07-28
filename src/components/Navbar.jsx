@@ -29,7 +29,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="fixed left-0 right-0 top-0 z-50">
+      <nav className="fixed left-0 right-0 top-3 z-50">
         {/* Desktop Menu */}
         <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 py-3 backdrop-blur-lg lg:flex">
           <div className="flex justify-between gap-6">
