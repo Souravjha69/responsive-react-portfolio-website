@@ -1,6 +1,7 @@
 import AboutSection from "./components/AboutSection";
 import Acheivement from "./components/Acheivement";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
@@ -18,6 +19,7 @@ function App() {
       <Acheivement/>
       <Testimonials/>
       <ContactForm/>
+      <Footer/>
     </main>
   );
 }

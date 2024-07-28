@@ -14,9 +14,12 @@ import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
-import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
-import image3 from "../assets/project3.jpeg";
+// import image1 from "../assets/project1.jpeg";
+import portfolio from "../assets/Portfolio.png";
+import resturant from "../assets/Resturant.png";
+import dwebsite from "../assets/3d-website.png"
+// import image2 from "../assets/project2.jpeg";
+// import image3 from "../assets/project3.jpeg";
 import image4 from "../assets/project4.jpeg";
 import image5 from "../assets/project5.jpeg";
 import image6 from "../assets/project6.jpeg";
@@ -51,21 +54,22 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
-    title: "E-commerce Platform",
+    title: "Resturant Landing Page",
     subtitle:
-      "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
-    image: image1,
+      "Created a dynamic restaurant landing page using React JS, Tailwind CSS, and Framer Motion. Features smooth animations, responsive design, and a modern UI.",
+    image: resturant,
   },
   {
-    title: "Social Media App",
+    title: "Responsive Portfolio",
     subtitle:
-      "A social media application developed using Next.js and Firebase.",
-    image: image2,
+      "A responsive portfolio website built with React, Tailwind CSS, and Framer Motion, featuring a clean design and smooth animations.",
+    image: portfolio,
   },
   {
-    title: "Project Management Tool",
-    subtitle: "A project management tool built with Django and PostgreSQL.",
-    image: image3,
+    title: "3D-Website",
+    subtitle:
+      "Interactive 3D website with HTML, CSS, and JavaScript. Features responsive design, smooth animations, and 3D elements. Clone the repo and open index.html to explore. Contributions welcome!",
+    image: dwebsite,
   },
   {
     title: "Personal Portfolio",
@@ -131,10 +135,10 @@ export const SKILLS = [
 ];
 
 export const ACHIEVEMENT = {
-  title: "International Hackaton - Tokyo",
-  award: "Gold Medalist - 2024",
+  title: "Google Cloud Readiness Program - Virtual",
+  award: "1500 Skill Badges - 2023",
   description:
-    "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",
+    "Acheived the Certificate of Appreciation of the Google Cloud career readiness program prepares students for cloud careers with industry-recognized training, skill badges, and certification.",
 };
 
 export const TESTIMONIALS = [
@@ -170,11 +174,11 @@ export const TESTIMONIALS = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/sourav.kumarjha.75/",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://x.com/jha33930",
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
@@ -182,15 +186,15 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://x.com/jha33930",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/Souravjha69",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/souravitachi/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
