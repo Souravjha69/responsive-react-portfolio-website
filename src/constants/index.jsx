@@ -37,6 +37,7 @@ export const NAVIGATION_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Award", href: "#award" },
   { label: "Testimonials", href: "#testimonials" },
+  {label: "Resume", href: "#resume"},
   { label: "Contact", href: "#contact" },
 ];
 
